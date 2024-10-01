@@ -103,7 +103,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.212.71.229:9980/mithuntechnologies/repository/canarabank-release/</url>
+	      <url>http://13.234.59.194:9980/mabashatech/repository/mabashawebapp1/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
