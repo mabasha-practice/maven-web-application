@@ -6,7 +6,7 @@ echo "Jenkins home directory: ${env.JENKINS_HOME}"
 echo "The jenkins node name is: ${env.NODE_NAME}"
 echo "The build number is: ${env.BUILD_NUMBER}"
 properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '5', daysToKeepStr: '', numToKeepStr: '5')), [$class: 'RebuildSettings', autoRebuild: false, rebuildDisabled: false], pipelineTriggers([pollSCM('* * * * *')])])
-       
+
 stage('checkoutcode'){
 git branch: 'main', credentialsId: 'c0e9e806-2b0f-495f-9291-34915796e466', url: 'https://github.com/mabasha-practice/maven-web-application.git'
 }
