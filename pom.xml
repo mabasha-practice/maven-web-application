@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://172.31.39.195:9980/mabashatech/repository/mabashawebapp/</url>
+	      <url>http://65.0.103.180:9980/mabashatech/repository/mavenwebapplication/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://172.31.39.195:9980/mabashatech/repository/mabashawebapp1/</url>
+	      <url>http://65.0.103.180:9980/mabashatech/repository/mavenwebsnapshot//</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
